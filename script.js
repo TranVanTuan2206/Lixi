@@ -37,7 +37,7 @@ function loitoggle(isShow,noidung) {
 function luatchoi() {
     document.getElementById('lc').innerHTML = `
     Bước 1: Dự đoán giải đặc biệt gồm 6 số 
-    (đăng ký trước ngày 10/2/2024)
+    (đăng ký trước ngày 10/02/2024)
 
     Bước 2: Chờ kết quả xổ số TPHCM 
     ngày 10/02/2024
@@ -48,7 +48,7 @@ function luatchoi() {
         Bước 3.1 Tính hệ số X
         A là số bạn chọn
         B là giải đặc biệt xổ số 
-        TPHCM ngày 10/2/2024
+        TPHCM ngày 10/02/2024
         X = |A - B| (giá trị tuyệt đối của A - B)
         Bước 3.2 Tính số tiền lì xì mà bạn sẽ 
         được nhận
