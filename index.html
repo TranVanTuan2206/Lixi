@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lixi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="err" id="loi">Error</div>
+    <div class="container">
+        <div class="names">Lixi</div>
+        <label>Kết quả xổ số (6 số)</label>
+        <input onfocus="loitoggle(false,'noidung')" id="kqxs" type="number" maxlength="6">
+        <label>Số bạn chọn (6 số)</label>
+        <input onfocus="loitoggle(false,'noidung')" id="sbc" type="number" maxlength="6">
+        <button onclick="ketqua()">Kết quả</button>
+        <button onclick="luatchoi()">Luật chơi</button>
+        <pre id="lc">
+            CUNG kính mời nhau chén rượu nồng
+            CHÚC mừng năm đến, tiễn năm xong
+            TÂN niên phúc lộc khơi vừa dạ
+            XUÂN mới tài danh khởi thỏa lòng
+            VẠN chuyện lo toan thay đổi hết
+            SỰ gì bế tắc thảy hanh thông
+            NHƯ anh, như chị, bằng bè bạn
+            Ý nguyện trọn đời đẹp ước mong.
+        </pre>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
